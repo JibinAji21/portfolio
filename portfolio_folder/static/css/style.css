@@ -1,0 +1,40 @@
+body {
+    background-color:gainsboro;
+    
+}
+/* .carousel-item img {
+    width: 100%;
+    height: auto;
+} */
+/* .social_icon ul {
+    list-style: none;
+    padding: 0;
+} */
+.social_icon ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social_icon ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.work-section,
+.portfolio-section,
+.contact-section {
+    padding: 60px;
+}
+.work-section
+.project,
+.portfolio-section
+.container_main {
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* .btn-main {
+    margin-top: 10px;
+} */
+.footer {
+    background-color:gray;
+    padding: 20px 0;
+    text-align: center;
+}
