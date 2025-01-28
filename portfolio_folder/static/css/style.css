@@ -1,7 +1,21 @@
 body {
-    background-color:gainsboro;
+    background-color:darkslategrey;
     
 }
+.myimage{
+    border-radius: 5px;
+}
+.heading{
+    color: white;
+}
+.resumediv{
+    display: flex;
+    justify-content: center;
+}
+/* .navbar{
+    background-color: black;
+
+} */
 /* .carousel-item img {
     width: 100%;
     height: auto;
