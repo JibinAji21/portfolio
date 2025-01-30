@@ -130,4 +130,107 @@ body {
   .footer p {
     font-size: 20px;
   }
+
+
+
+
+  .resume-section {
+    padding: 50px 0;
+}
+
+.project img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .project img {
+        height: 180px; /* Adjusting image height on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .project img {
+        height: 50px; /* Adjusting image height on very small screens */
+    }
+}
+
+.resume-section .btn {
+    font-size: 16px;
+}
+
+
+
+
+
+
+.portfolio-section {
+    padding: 50px 0;
+}
+
+.container_main {
+    position: relative;
+}
+
+.container_main img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.container_main img:hover {
+    transform: scale(1.05);
+}
+
+.container_main .btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .container_main .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container_main .btn {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .contact-section h2 {
+        font-size: 2rem;
+    }
+
+    .contact-section .form-control {
+        font-size: 1rem;
+    }
+
+    .contact-section button {
+        font-size: 1.2rem;
+    }
+}
+
   
